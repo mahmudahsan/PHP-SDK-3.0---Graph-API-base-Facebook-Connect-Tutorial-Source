@@ -1,0 +1,49 @@
+Facebook recently updated their PHP-SDK to version 3.0 also added new way of authentication. This is a major change. So this is the updated post of my old popular post.
+
+In this version of my code, I avoided javascript authentication, because that is cookie based and php sdk 3.0 has some conflicts with the old system. Facebook will also update the javascript sdk soon, so later you can use the login/logout system of javascript api with php sdk. But for now you should use fully php base authentication.
+
+In this post you’ll learn:
+
+    How to integrate Facebook Connect in your website
+    How to generate Facebook Login / Logout URL
+    How to get extended permissions from users
+    How to call graph api
+    How to run FQL Query
+    Publish Wall Post using PHP
+    Publish Wall Post using Facebook Javascript API
+    Invite friends using Facebook Javascript API
+    No Facebook Javascript only use PHP SDK
+
+
+
+Tutorial: http://thinkdiff.net/facebook/php-sdk-3-0-graph-api-base-facebook-connect-tutorial/
+
+
+License
+
+Copyright (c) 2011, Mahmud Ahsan (http://thinkdiff.net)
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+
+    * Neither the name of thinkdiff.net or Mahmud Ahsan may be used to endorse or promote products derived from this
+      software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
